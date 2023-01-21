@@ -11,6 +11,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #51A687;
 }
 
 .jala-logo {
@@ -24,8 +25,20 @@ main {
 .skull-container {
     display: flex;
     flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+    padding: 0;
+    /* width: 100vw; */
+}
+
+.male-skull {
+    width: 25vw;
+}
+
+.female-skull {
+    width: 22vw;
 }
 
 .header-options {
-    display: inline;
+    text-align: center;
 }
